@@ -1,16 +1,18 @@
 import React, { useState } from "react";
-import Cards from "./contents/Card"
+import Cards from "./contents/Card";
 import Box from "@mui/material/Box";
 import PopUp from "./forms/PopUp";
 
-export default function Main(props) {
+function Main(props) {
   const { products, onAdd, onRemove } = props;
-
 
   return (
     <main className="container block">
-      <h2 className="text">Products</h2>
-
+      {products.length === 0 ? (
+        <h2 className="text">Add a new Product</h2>
+      ) : (
+        <h2 className="text">Products</h2>
+      )}
       <div className="row">
         <Box>
           {products.map((product) => (
@@ -22,9 +24,10 @@ export default function Main(props) {
             />
           ))}
         </Box>
-        <PopUp/>
+        <PopUp />
       </div>
-
     </main>
   );
 }
+
+export default Main;

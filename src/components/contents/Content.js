@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
+
 import Main from "../Main";
-//import data from "../../products/data.json";
+
 
 function Content() {
     const [isLoading, setIsLoading] = useState(true);
@@ -32,12 +33,11 @@ function Content() {
     if (isLoading) {
       return (
         <section className="container block">
-          <p>Loading...</p>
+          <h1 className="text">Loading...</h1>
         </section>
       );
     }
   
-
   return (
     <div>
       <Main products={loadedMeetups} />
