@@ -8,7 +8,7 @@ export default function Main(props) {
 
 
   return (
-    <main className="block ">
+    <main className="container block">
       <h2 className="text">Products</h2>
 
       <div className="row">

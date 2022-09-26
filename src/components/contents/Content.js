@@ -31,7 +31,7 @@ function Content() {
   
     if (isLoading) {
       return (
-        <section>
+        <section className="container block">
           <p>Loading...</p>
         </section>
       );

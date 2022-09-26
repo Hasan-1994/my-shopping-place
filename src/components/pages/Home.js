@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div className="block">
+    <div className="container block">
       <h1>adssad</h1>
       <h1>adssad</h1>
       <h1>adssad</h1>

@@ -8,7 +8,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Footer() {
     return (
-        <div className="block">
+        <div className="container block">
             <div className="text">
                 <h3>Social Contact</h3>
                 <ButtonGroup variant="text" aria-label="text button group">
