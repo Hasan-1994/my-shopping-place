@@ -25,6 +25,7 @@ h3 {
   font-size: 1.0rem;
 }
 
+
 a {
   text-decoration: none;
 }
@@ -126,4 +127,7 @@ button.badge {
 .border{
   border-style: solid;
   border-color: red;
+}
+.wrapper{
+  display: flex;
 }

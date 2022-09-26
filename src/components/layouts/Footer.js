@@ -1,8 +1,6 @@
 import React from "react";
 import Button from "@mui/material/Button";
 import ButtonGroup from "@mui/material/ButtonGroup";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
@@ -13,18 +11,18 @@ function Footer() {
         <h3>Social Contact</h3>
         <ButtonGroup variant="text" aria-label="text button group">
           <Button>
-            <InstagramIcon onClick={() => alert("sdasdas")} />
-          </Button>
-          <Button>
-            <LinkedInIcon onClick={() => alert("sdasdas")} />
-          </Button>
-          <Button>
-            <ShoppingBagIcon
-              onClick={() => alert("Hier Icon von Shop und Logo")}
+            <LinkedInIcon
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/hasan-sivrikaya-507a53130/"
+                )
+              }
             />
           </Button>
           <Button>
-            <GitHubIcon onClick={() => alert("Hier Icon von Shop und Logo")} />
+            <GitHubIcon
+              onClick={() => window.open("https://github.com/Hasan-1994")}
+            />
           </Button>
         </ButtonGroup>
       </div>

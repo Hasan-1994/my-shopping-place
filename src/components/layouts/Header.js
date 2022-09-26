@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
+import InfoIcon from "@mui/icons-material/Info";
+import StorefrontIcon from "@mui/icons-material/Storefront";
 
 function Header() {
   return (
@@ -16,12 +17,13 @@ function Header() {
           <li className="nav-item">
             <Link to="/product" class="nav-link">
               Product
+              <StorefrontIcon />
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/bag" class="nav-link">
-              Bag
-              <ShoppingBagIcon />
+            <Link to="/introduction" class="nav-link">
+              Introduction
+              <InfoIcon />
             </Link>
           </li>
         </ul>

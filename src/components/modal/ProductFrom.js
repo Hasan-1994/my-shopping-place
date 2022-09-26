@@ -1,6 +1,6 @@
 import { useRef } from "react";
 
-import classes from "./ProductForm.module.css";
+import classes from "./Modal.module.css";
 
 function ProductForm(props) {
   const nameInputRef = useRef();
@@ -10,7 +10,7 @@ function ProductForm(props) {
 
   function submitHandler(event) {
     event.preventDefault();
-    const id = Math.floor(Math.random() * 100.0) + 1;
+    const id = Math.floor(Math.random() * "100") + "1";
     const enteredName = nameInputRef.current.value;
     const enteredImage = imageInputRef.current.value;
     const enteredPrice = priceInputRef.current.value;

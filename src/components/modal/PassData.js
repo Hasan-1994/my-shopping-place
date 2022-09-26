@@ -1,7 +1,6 @@
 import { useHistory } from "react-router-dom";
-import ProductFrom from "../forms/ProductFrom";
-import Main from "../Main";
-import classes from "./ProductForm.module.css";
+import ProductFrom from "./ProductFrom";
+import classes from "./Modal.module.css";
 
 function PassData(props) {
   const history = useHistory();

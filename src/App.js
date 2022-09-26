@@ -1,12 +1,11 @@
-import { Switch, Route, Link } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
 import Products from "./components/pages/Product";
-import Bag from "./components/pages/Bag";
+import Introduction from "./components/pages/Introduction";
 import Header from "./components/layouts/Header";
 import Footer from "./components/layouts/Footer";
 
 function App() {
-  
   return (
     <div>
       <Header />
@@ -17,8 +16,8 @@ function App() {
         <Route path="/product">
           <Products />
         </Route>
-        <Route path="/bag">
-          <Bag />
+        <Route path="/intoduction">
+          <Introduction />
         </Route>
       </Switch>
       <Footer />
