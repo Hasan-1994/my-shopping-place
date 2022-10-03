@@ -1,7 +1,7 @@
+import IntroductionPage from "../contents/IntoductionPage";
+
 function Introduction() {
-  return (
-    <div className="container">INTRO</div>
-  );
+  return <IntroductionPage />;
 }
 
 export default Introduction;

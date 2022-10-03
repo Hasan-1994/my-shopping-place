@@ -6,6 +6,7 @@ function BagItem(props) {
   const itemsPrice = cardItem.reduce((a, c) => a + c.price * c.qty, 0);
   const shppingPrice = itemsPrice >= 50 ? 0 : 50;
   const totalPrice = itemsPrice + shppingPrice;
+
   return (
     <div>
       <div className="container wrapper">
@@ -56,4 +57,3 @@ function BagItem(props) {
 }
 
 export default BagItem;
-

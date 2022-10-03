@@ -24,7 +24,9 @@ h2 {
 h3 {
   font-size: 1.0rem;
 }
-
+h5{
+  font-size: 0.8rem;
+}
 
 a {
   text-decoration: none;

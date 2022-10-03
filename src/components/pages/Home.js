@@ -1,18 +1,9 @@
 function Home() {
   return (
     <div className="container block">
-      <h1>adssad</h1>
-      <h1>adssad</h1>
-      <h1>adssad</h1>
-      <h1>adssad</h1>
-      <h1>adssad</h1>
-      <h1>adssad</h1>
-      <h1>adssad</h1>
-      <h1>adssad</h1>
-      <h1>adssad</h1>
-      <h1>adssad</h1>
-      <h1>adssad</h1>
-      <h1>adssad</h1>
+      <h5 className="text container">
+        To see the products click on "Products" in the header.
+      </h5>
     </div>
   );
 }

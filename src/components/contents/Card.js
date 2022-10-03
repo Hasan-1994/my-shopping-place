@@ -30,7 +30,7 @@ function Cards(props) {
         </CardContent>
         <CardActions>
           <Button className="addToCardBtn" onClick={() => onAdd(product)}>
-            Add to Card
+            Add to Bag
             <AddShoppingCartIcon />
           </Button>
         </CardActions>

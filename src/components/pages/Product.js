@@ -1,6 +1,7 @@
 import Content from "../contents/Content";
+
 function Products() {
-    return ( <Content />);
+  return <Content />;
 }
 
 export default Products;
