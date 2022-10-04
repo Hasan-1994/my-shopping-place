@@ -3,7 +3,7 @@ import Button from "@mui/material/Button";
 
 function BagItem(props) {
   const { cardItem, onRemove, onAdd } = props;
-  const itemsPrice = cardItem.reduce((a, c) => a + c.price * c.qty, 0);
+  const itemsPrice = cardItem.reduce((a, c) => a + c.price * c.quantity, 0);
   const shppingPrice = itemsPrice >= 50 ? 0 : 50;
   const totalPrice = itemsPrice + shppingPrice;
 
@@ -23,7 +23,7 @@ function BagItem(props) {
               <>
                 <p>{item.name}</p>
                 <span>
-                  {item.qty} x {item.price},00 €
+                  {item.quantity} x {item.price},00 €
                 </span>
                 <p></p>
                 <Button onClick={() => onRemove(item)} className="remove">
